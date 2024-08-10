@@ -5,14 +5,14 @@ Welcome to the **CIDR to IP Converter** script! This tool allows you to easily c
 ---
 
 ## 📝 Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Single CIDR](#single-cidr)
-  - [Multiple CIDRs](#multiple-cidrs)
-  - [Saving Options](#saving-options)
-- [Example Outputs](#example-outputs)
-- [License](#license)
+- [Features](#-features)
+- [Installation](#-installation)
+- [Usage](#-usage)
+  - [Single CIDR](#-single-cidr)
+  - [Multiple CIDRs](#-multiple-cidrs)
+  - [Saving Options](#-saving-options)
+- [Example Outputs](#-example-outputs)
+- [License](#-license)
 
 ---
 
@@ -42,7 +42,7 @@ Welcome to the **CIDR to IP Converter** script! This tool allows you to easily c
 
 1. **Run the Script:**
    ```bash
-   python cidr_converter.py
+   python cidr2ip.py
    ```
 
 2. **Select the Single CIDR Option:**
@@ -59,7 +59,7 @@ Welcome to the **CIDR to IP Converter** script! This tool allows you to easily c
 
 1. **Run the Script:**
    ```bash
-   python cidr_converter.py
+   python cidr2ip.py
    ```
 
 2. **Select the Multiple CIDRs Option:**
@@ -80,11 +80,13 @@ Welcome to the **CIDR to IP Converter** script! This tool allows you to easily c
 
 ### Single CIDR Example
 ```bash
-$ python cidr_converter.py
+$ python cidr2ip.py
+
 ▒█▀▀█ ▀█▀ ▒█▀▀▄ ▒█▀▀█ 　 █▀█ 　 ▀█▀ ▒█▀▀█ 
 ▒█░░░ ▒█░ ▒█░▒█ ▒█▄▄▀ 　 ░▄▀ 　 ▒█░ ▒█▄▄█ 
 ▒█▄▄█ ▄█▄ ▒█▄▄▀ ▒█░▒█ 　 █▄▄ 　 ▄█▄ ▒█░░░
-                                         ᴮʸ ⁻ ᴬʸᵃⁿ ᴿᵃʲᵒᵒᵗ
+                               By- Ayan Rajpoot    
+
 Welcome to the CIDR to IP Converter
 1. Input a single CIDR
 2. Input multiple CIDRs
@@ -97,11 +99,13 @@ Total number of IP addresses saved: 256
 
 ### Multiple CIDRs Example
 ```bash
-$ python cidr_converter.py
+$ python cidr2ip.py
+
 ▒█▀▀█ ▀█▀ ▒█▀▀▄ ▒█▀▀█ 　 █▀█ 　 ▀█▀ ▒█▀▀█ 
 ▒█░░░ ▒█░ ▒█░▒█ ▒█▄▄▀ 　 ░▄▀ 　 ▒█░ ▒█▄▄█ 
 ▒█▄▄█ ▄█▄ ▒█▄▄▀ ▒█░▒█ 　 █▄▄ 　 ▄█▄ ▒█░░░
-                                         ᴮʸ ⁻ ᴬʸᵃⁿ ᴿᵃʲᵒᵒᵗ
+                               By- Ayan Rajpoot          
+
 Welcome to the CIDR to IP Converter
 1. Input a single CIDR
 2. Input multiple CIDRs
