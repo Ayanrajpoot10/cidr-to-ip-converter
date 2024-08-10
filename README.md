@@ -13,7 +13,7 @@ This script converts CIDR notation to a list of IP addresses and allows you to s
 1. Clone the repository:
    ```bash
    git clone https://github.com/Ayanrajpoot10/cidr2ip.git
-   cd cidr2i
+   cd cidr2ip
 
 2. Run the script
    ```bash
