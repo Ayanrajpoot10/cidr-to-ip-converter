@@ -35,11 +35,6 @@ Welcome to the **CIDR to IP Converter** script! This tool allows you to easily c
    cd cidr2ip
 
 
-Ensure Python is Installed:
-      • This script requires Python 3.6 or higher.
-       Check your Python version with:
-      ```bash
-         python --version
 
 ## 🚀 Usage
 
@@ -80,3 +75,63 @@ Ensure Python is Installed:
 
 5. **Result:**
    - The script will process each CIDR, save the IPs accordingly, and provide progress updates.
+
+## 💻 Example Outputs
+
+### Single CIDR Example
+```bash
+$ python cidr_converter.py
+▒█▀▀█ ▀█▀ ▒█▀▀▄ ▒█▀▀█ 　 █▀█ 　 ▀█▀ ▒█▀▀█ 
+▒█░░░ ▒█░ ▒█░▒█ ▒█▄▄▀ 　 ░▄▀ 　 ▒█░ ▒█▄▄█ 
+▒█▄▄█ ▄█▄ ▒█▄▄▀ ▒█░▒█ 　 █▄▄ 　 ▄█▄ ▒█░░░
+                                         ᴮʸ ⁻ ᴬʸᵃⁿ ᴿᵃʲᵒᵒᵗ
+Welcome to the CIDR to IP Converter
+1. Input a single CIDR
+2. Input multiple CIDRs
+Choose an option (1 or 2): 1
+Enter a CIDR (e.g., 192.168.1.0/24): 192.168.1.0/24
+Enter the filename to save IP addresses (e.g., ip_addresses.txt): output.txt
+IP addresses for 192.168.1.0/24 saved to output.txt
+Total number of IP addresses saved: 256
+```
+
+### Multiple CIDRs Example
+```bash
+$ python cidr_converter.py
+▒█▀▀█ ▀█▀ ▒█▀▀▄ ▒█▀▀█ 　 █▀█ 　 ▀█▀ ▒█▀▀█ 
+▒█░░░ ▒█░ ▒█░▒█ ▒█▄▄▀ 　 ░▄▀ 　 ▒█░ ▒█▄▄█ 
+▒█▄▄█ ▄█▄ ▒█▄▄▀ ▒█░▒█ 　 █▄▄ 　 ▄█▄ ▒█░░░
+                                         ᴮʸ ⁻ ᴬʸᵃⁿ ᴿᵃʲᵒᵒᵗ
+Welcome to the CIDR to IP Converter
+1. Input a single CIDR
+2. Input multiple CIDRs
+Choose an option (1 or 2): 2
+Do you want to input CIDRs manually or provide a file? (manual/file): manual
+Enter CIDR(s) separated by a comma (e.g., 192.168.1.0/24,10.0.0.0/8): 192.168.1.0/24,10.0.0.0/8
+Do you want to save the results to the same file or different files? (same/different): same
+Enter the filename to save all IP addresses (e.g., ip_addresses.txt): output.txt
+Processed 192.168.1.0/24. IP addresses appended to output.txt.
+Processed 10.0.0.0/8. IP addresses appended to output.txt.
+All IP addresses saved to output.txt
+Total number of IP addresses saved: 16777216
+```
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📬 Contact
+
+For any issues or suggestions, feel free to create an issue or pull request, or contact the author:
+
+- **GitHub:** [Ayanrajpoot10](https://github.com/Ayanrajpoot10)
+- **Email:** Ayanrajpoot2004@gmail.com
+
+---
+
+Thank you for using the CIDR to IP Converter! Happy coding! 🎉
+```
