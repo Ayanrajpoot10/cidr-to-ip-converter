@@ -8,9 +8,9 @@ Welcome to the **CIDR to IP Converter** script! This tool allows you to easily c
 - [Features](#-features)
 - [Installation](#-installation)
 - [Usage](#-usage)
-  - [Single CIDR](#-single-cidr)
-  - [Multiple CIDRs](#-multiple-cidrs)
-  - [Saving Options](#-saving-options)
+  - [Single CIDR](#single-cidr)
+  - [Multiple CIDRs](#multiple-cidrs)
+  - [Saving Options](#saving-options)
 - [Example Outputs](#-example-outputs)
 - [License](#-license)
 
